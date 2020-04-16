@@ -1,0 +1,7 @@
+version: "3"
+services:
+  pinger-node:
+    build:
+      context: .
+    stdin_open: true
+    tty: true
