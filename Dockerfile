@@ -1,5 +1,5 @@
 FROM arm32v7/node:12.16.2-alpine
-RUN apk add git
+RUN apk --update add git
 
 RUN git clone https://github.com/ppsirius/ping-from-node.git
 RUN cd ping-from-node
