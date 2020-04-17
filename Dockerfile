@@ -7,4 +7,4 @@ RUN cd ping-from-node
 WORKDIR /ping-from-node
 RUN npm install
 
-CMD [ "node", "index.js" ]
+CMD [ "npm", "run", "start" ]
