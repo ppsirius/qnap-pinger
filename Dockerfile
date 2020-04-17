@@ -1,5 +1,4 @@
-FROM arm32v7/alpine
-RUN apk add --update nodejs npm
+FROM arm32v7/node:12.16.2-alpine
 RUN apk add git
 
 RUN git clone https://github.com/ppsirius/ping-from-node.git
