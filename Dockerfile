@@ -6,5 +6,5 @@ RUN git clone https://github.com/ppsirius/ping-from-node.git
 RUN cd ping-from-node
 WORKDIR /ping-from-node
 RUN npm install
-
+RUN npm run build
 CMD [ "npm", "run", "start" ]
